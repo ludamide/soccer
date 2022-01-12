@@ -1,0 +1,76 @@
+*{
+   margin:0;
+padding:0;
+}
+.container {
+max-width:1200px;
+margin:0 auto;
+display:flex;
+justify-content:center;
+flex-direction:column;
+height:100vh;
+gap:2rem;
+}
+.stadium {
+background:url("https://img.freepik.com/foto-gratis/estadio-futbol-soccer-focos_163782-3549.jpg?size=626&ext=jpg");
+background-size:cover;
+background-position:bottom;
+margin:0 auto;
+width:800px;
+height:400px;
+border:2px solid black;
+border-radius:5px;
+}
+
+.marker {
+   background-color:#2C2C2C;
+   border-radius:5px;
+   border:2px solid #000;
+width:400px;
+height:200px;
+margin:0 auto;
+position:relative;
+}
+
+.grid {
+   display:grid;
+   grid-template-columns:1fr 1fr;
+justify-items:center;
+}
+
+.grid .team p {
+   color:#FFF;
+   font-size:20px;
+   text-align:center;
+}
+
+.grid .general-team {
+   margin-top:20px;
+}
+
+.square {
+   margin:20px auto 0 auto;
+width:80px;
+height:80px;
+box-shadow: black 3px 3px 6px 0px inset, black -3px -3px 6px 1px inset;
+display:flex;
+justify-content:center;
+align-items:center;
+padding:10px;
+border-radius:5px;
+}
+
+.square p.result {
+   font-size:70px;
+}
+
+.medium {
+width:50px;
+height:200px;
+background-color:#2C2C2C;
+position: absolute;
+margin-left:auto;
+margin-right:auto;
+left:0;
+right:0;
+}
