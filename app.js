@@ -23,7 +23,7 @@ let teams = [
 teams = _.shuffle(teams);
 
 const marker = document.querySelector(".marker");
-for(let i = 0; i < 10; i + 2) {
+for(let i = 0; i < teams.length; i += 2) {
   createMarker(i);
 }
 
@@ -90,7 +90,3 @@ function goalGen() {
 
     return rndomGoal;
   }
-// no me carga, me da el out of memory también
-// cagamos
-
-
